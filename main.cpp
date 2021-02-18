@@ -11,10 +11,10 @@ int main(){
 //set a function to see if string is reversed 
   if (input == string(input.rbegin(),input.rend())) 
 //print answers
-cout << input << "Yes your sentence is a Palindrome!" ;
+{
+cout << input << "Yes your sentence is a Palindrome!" ;}
   else 
   
 cout << input << "No your sentence is not a Palindrome!" ;
 return 0;
 }
-
